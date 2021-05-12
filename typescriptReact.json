@@ -1,0 +1,18 @@
+{
+"Typescript react commponent": {
+		"prefix": "rfc",
+		"body": [
+		  "import {FC} from \"react\";",
+		  "",
+		  "const ${TM_FILENAME_BASE}:FC = () => {",
+		  "  return (",
+		  "    <div>",
+		  "        ${1:${TM_FILENAME_BASE}}",
+		  "    </div>",
+		  "  )",
+		  "}",
+		  "export default ${TM_FILENAME_BASE}"
+		],
+		"description": "Typescript react commponent"
+	  }
+}
